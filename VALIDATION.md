@@ -35,3 +35,7 @@ These skills cannot guarantee flawless model behavior or add missing connector f
 ## Public-source context update — October 15, 2026 (local date)
 
 The maintainer authorized public connector and skills repositories; the internal documentation remains private. The three skill bodies are unchanged. macOS/Codex discovery appeared in the maintainer's actual session, and subsequent displayed research/document answers used readable citations and complete-transcript coverage. This is observed client/output evidence, not a controlled proof of implicit skill routing or every summary's accuracy. The README now includes Claude Code's officially documented local skill location; live Claude/Windows/Linux skill discovery remains unverified. Public visibility is not general stable compatibility.
+
+## Published source check
+
+Public default-branch checkout **b8138ccce107d2c1b74429a82f06636619621013** was retrieved with interactive Git credentials disabled and all six skill/metadata files matched the reviewed checkout. Anonymous README retrieval succeeded. Private GitHub vulnerability reporting was enabled and verified. No skill bodies changed. Actual Claude Code and Windows/Linux skill discovery remain unverified.
