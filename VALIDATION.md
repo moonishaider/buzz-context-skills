@@ -31,3 +31,7 @@ An isolated download/install check is recorded in the delivery report with its e
 After installation, confirm the three names are discoverable in the actual Codex client. Try one real research question, one bounded catch-up and one document review; compare readable citations and coverage with the source. Explicitly select the relevant skill if implicit matching is unreliable. Use synthetic content for repeatable model evaluations; do not commit private workspace excerpts here.
 
 These skills cannot guarantee flawless model behavior or add missing connector features. Windows/Linux and Claude skill discovery are not verified by the local validation. Existing MCP credential storage and compatibility requirements remain those of the implementation repository.
+
+## Public-source context update — October 15, 2026 (local date)
+
+The maintainer authorized public connector and skills repositories; the internal documentation remains private. The three skill bodies are unchanged. macOS/Codex discovery appeared in the maintainer's actual session, and subsequent displayed research/document answers used readable citations and complete-transcript coverage. This is observed client/output evidence, not a controlled proof of implicit skill routing or every summary's accuracy. The README now includes Claude Code's officially documented local skill location; live Claude/Windows/Linux skill discovery remains unverified. Public visibility is not general stable compatibility.
