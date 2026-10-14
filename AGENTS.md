@@ -9,3 +9,9 @@ This repository contains public instruction-only skills for Buzz Context MCP. Th
 - Keep each skill self-contained and concise. Avoid scripts, hooks or automatic remote updates unless separately requested.
 - Run the bundled skill-creator validator on every changed skill; review routing and realistic behavior as well as syntax. Record actual validation, not guarantees of error-free behavior.
 - Follow effective runtime Git identity and signing. Do not invent authors, co-authors or approval trailers.
+
+## Teammate alpha rollout decision — October 15, 2026 (local date)
+
+The maintainer explicitly approved a teammate-first alpha rollout with public source availability and Windows/Linux feedback collected after release. These unverified combinations are not installation blockers for the alpha; they remain experimental and each installer must run the documented local checks. This supersedes the earlier requirement to withhold an announcement until every platform/client had full human acceptance. It does not change any recorded test result or claim stable universal support.
+
+Release scope: existing read-only connector 0.1.0-alpha.3 plus instruction-only skills 0.1.1, local Codex or Claude Code, each person's own locally provisioned identity. No npm publication, automatic remote updates, account changes, teammate outreach or connector runtime changes are part of this release. The owner sends the announcement.
