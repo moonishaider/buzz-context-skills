@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buzz Document Review"
+  short_description: "Read Buzz documents with clear extraction limits"
+
