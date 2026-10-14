@@ -1,6 +1,6 @@
 # Validation and acceptance
 
-Version 0.1.0 contains three instruction-only skills. It targets the 13-tool Buzz Context MCP catalog documented in [TOOLS.md](https://github.com/moonishaider/buzz-context-mcp/blob/main/docs/TOOLS.md). No scripts, hooks, automatic remote loading or additional tools are included.
+Current version 0.1.1 contains three instruction-only skills. Earlier dated records below describe the checks at those revisions; the final current-client section supersedes earlier discovery gaps on macOS. It targets the 13-tool Buzz Context MCP catalog documented in [TOOLS.md](https://github.com/moonishaider/buzz-context-mcp/blob/main/docs/TOOLS.md). No scripts, hooks, automatic remote loading or additional tools are included.
 
 ## Checks performed
 
@@ -39,3 +39,11 @@ The maintainer authorized public connector and skills repositories; the internal
 ## Published source check
 
 Public default-branch checkout **b8138ccce107d2c1b74429a82f06636619621013** was retrieved with interactive Git credentials disabled and all six skill/metadata files matched the reviewed checkout. Anonymous README retrieval succeeded. Private GitHub vulnerability reporting was enabled and verified. No skill bodies changed. Actual Claude Code and Windows/Linux skill discovery remain unverified.
+
+## Current macOS client acceptance and 0.1.1 correction
+
+Current connector source was exercised by Codex CLI 0.162.0 and Claude Code 2.1.132/Sonnet 4.6 against isolated synthetic data. Both read a generically labelled text attachment in two sections (22,612 characters, final continuation null, complete extraction), preserved a pending-review/no-release-approved distinction, and observed ACCESS_DENIED on the other identity's channel. Claude initialization explicitly listed all three installed skills and invoked the document-review Skill tool. Codex discovered and read all three project skill files before using MCP. No real workspace content or keys entered the model fixture.
+
+The first Claude answer repeated its review and showed a raw channel identifier. Version 0.1.1 adds explicit section-continuation/completeness guidance and asks short reviews to avoid duplicate reports, raw identifiers and parser fields. A second test also exposed a wrong source date and an instruction paraphrased as completed activity; the correction preserves action tense/status and omits uncertain dates rather than guessing them. This is a narrow behavior improvement, not a guarantee of model compliance. Windows/Linux actual client discovery remains unverified. Follow-up validation/results are recorded below.
+
+Follow-up: the revised skill passed the bundled structural validator. A realistic short-summary retest again retrieved every section and correctly denied the private channel; the source date was correct, but the model still paraphrased an instruction to review as though review had happened and retained technical fields. These answer-quality checks are **partial, not a full pass**. Further prompt repetitions are not treated as proof of reliability. The connector returned the original source correctly; no connector change can guarantee a downstream model's prose. General stable multi-client rollout remains unestablished.
