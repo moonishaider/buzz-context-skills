@@ -1,6 +1,6 @@
 # Buzz Context Skills
 
-Three small, instruction-only skills for the [Buzz Context MCP](https://github.com/moonishaider/buzz-context-mcp). They improve research and answer quality; they do not add tools or expand access. Public source alpha, skills version **0.1.1**. The three skills were discovered and used in local macOS Codex and Claude Code acceptance checks; Windows/Linux client discovery remains unverified. No official Buzz or OpenAI endorsement.
+Three small, instruction-only skills for the [Buzz Context MCP](https://github.com/moonishaider/buzz-context-mcp). They improve research and answer quality; they do not add tools or expand access. Ready for the approved teammate alpha rollout, skills version **0.1.1**. The three skills were discovered and used in local macOS Codex and Claude Code acceptance checks; Windows/Linux client discovery remains unverified. No official Buzz or OpenAI endorsement.
 
 | Skill | Use |
 | --- | --- |
