@@ -9,4 +9,3 @@ This repository contains instruction-only skills for Buzz Context MCP. Keep it p
 - Keep each skill self-contained and concise. Avoid scripts, hooks or automatic remote updates unless separately requested.
 - Run the bundled skill-creator validator on every changed skill; review routing and realistic behavior as well as syntax. Record actual validation, not guarantees of error-free behavior.
 - Follow effective runtime Git identity and signing. Do not invent authors, co-authors or approval trailers.
-
